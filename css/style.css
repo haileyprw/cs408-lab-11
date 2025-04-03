@@ -1,4 +1,83 @@
-h1{
-  border-color: #d3e644;
-  border-style: dashed;
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #1e1e2e;
+  color: #e0e0e0;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #ff6b6b;
+  text-shadow: 2px 2px 5px rgba(255, 107, 107, 0.5);
+}
+
+/* Button Styling */
+button {
+  background: linear-gradient(135deg, #ff6b6b, #ff9f43);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 8px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 15px rgba(255, 107, 107, 0.5);
+}
+
+/* Table Styling */
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+th {
+  background: rgba(255, 255, 255, 0.2);
+  font-weight: bold;
+}
+
+td {
+  text-align: center;
+}
+
+tr:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* Form Styling */
+.form-box {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  width: 50%;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #ff6b6b;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  font-size: 1rem;
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
 }
